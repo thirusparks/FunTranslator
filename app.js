@@ -10,7 +10,7 @@ function getTranslationURL (inputText){
 }
 function errorHandler(error){
     console.log("Error occured" + error);
-    alert("Please try again after sometime")
+    alert("Please try again after sometime. Can be tried only 5 times per hour")
 }
 function clickHandler(){
     var inputText = input.value; // getting input
